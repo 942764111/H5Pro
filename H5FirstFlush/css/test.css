@@ -1,48 +1,150 @@
 #txt{
-    font-size: 28%;
+    font-size: 33%;
     position:absolute;
-    text-align:left
-    left:50%;
-    top:50%;
-    border:2px solid red;
+    border: 1px solid red;
+    height: 120px;
+    width: 335px;
+    left:10px;
+    line-height: 1.7em;
+    top:325px;
     color: #FFFFFF;
+    margin: 0px auto;
+    text-shadow: 5px 5px 5px #FF0000;
 }
 #txtbj{
     position:absolute;
-    text-align:left
-    left:50%;
-    top:50%;
-    width: 100%;
-
+    top:320px;
+    left: +8px;
+    margin: 0px auto;
+    width: 95%;
+    height: 130px;
 }
-button{
+ .btn{
     position:absolute;
-    text-align:left
-    left:50%;
-    top:50%;
-    width: 100%;
-background-imageurl('../images/lijilingqu_03.png')
+    width: 50%;
+    top:530px;
+    left: 92.75px;
+    list-style:none;
+    margin: 0px auto;
 }
-#bj{
-    border:2px solid red;
+ #down{
+     position:absolute;
+     top:465px;
+     left: 17.75px;
+     width: 90%;
+ }
+ #progressbar{
+     position:absolute;
+     top:480px;
+     left: 91.5px;
+     width: 50%;
+ }
+#bar{
+    position:absolute;
+    top:478.5px;
+    left: 90px;
+    width: 51%;
+}
+#downtxt1{
+    font-size: 25%;
+    direction:RTL;
+    width: 70px;
+    border: 1px red;
+    position:absolute;
+    top:467px;
+    left: 18px;
+    color: #FFFFFF;
+}
+#downtxt2{
+    width: 70px;
+    border: 1px red;
+    font-size: 25%;
+    position:absolute;
+    top:467px;
+    left: 274px;
+    color: #FFFFFF;
+}
+div{
+    position:relative;
+    margin: 0 auto;
 }
 html,body{
-
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     width: 100%; margin: 0px auto;
 }
+
 body
 {
     background-color:black;
 }
 
 img{
+    position: relative;
     width:100%;
 }
+
 
 @media only screen and (max-width: 1242px) and (min-width: 751px){
 }
 @media only screen and (max-width: 750px) and (min-width: 410px){
+
+    #down{
+        position:absolute;
+        top:850px;
+        left: 35.5px;
+    }
+    #progressbar{
+        position:absolute;
+        top:850px;
+        left: 91.5px;
+    }
+    #bar{
+        position:absolute;
+        top:478.5px;
+        left: 90px;
+        width: 51%;
+    }
+
+    #txt{
+        position:absolute;
+        top:620px;
+        left: +90px;
+        width: 500px;
+        margin: 0px auto;
+    }
+    #txtbj{
+        position:absolute;
+        top:620px;
+        left: +18px;
+        height: 200px ;
+    }
+    .btn{
+        position:absolute;
+        width: 50%;
+        top:970px;
+        left: 25%;
+        list-style:none;
+        margin: 0px auto;
+    }
 }
 @media only screen and (max-width: 409px) {
+    #txt{
+        top:321px;
+        font-size: 15px;
+    }
+
+    #downtxt1{
+        font-size: 25%;
+        direction:RTL;
+        position:absolute;
+        top:465px;
+        left: 18px;
+        color: #FFFFFF;
+    }
+    #downtxt2{
+        position:absolute;
+        top:466px;
+        left: 76%;
+    }
+
 }

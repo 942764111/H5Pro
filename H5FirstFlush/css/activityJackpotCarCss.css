@@ -1,16 +1,29 @@
 
-html,body{
+p{
+    font-size: 28%;
+    line-height:22px;
+    position:fixed;
+    left:15px;
+    top:330px;
+    /*border:1px solid red;*/
+    color: #FFFFFF;
+    margin: 0px auto;
+    width: 91%;
+    font-family:'PingFang SC'
+}
 
-    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+html,body{
     width: 100%; margin: 0px auto;
 }
 
 body
 {
     background-color:black;
+
 }
 
 canvas{
+    position: relative;
     width:100%;
 }
 

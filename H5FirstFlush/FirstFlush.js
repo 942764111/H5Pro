@@ -93,7 +93,7 @@ lib.properties = {
 	this.text_1.lineWidth = 144;
 	this.text_1.setTransform(565.8,993);
 
-	this.rulestxt = new cjs.Text("1.用户累计充值达到             后，在本活动页点击\n立即领取按钮进行领取;\n2.领取完30天奖励后，活动将重新开始;\n3.每日0点即可领取当日奖励;\n4.充值金额以活动开始后计算。", "28px 'PingFang SC'", "#FFFFFF");
+	this.rulestxt = new cjs.Text("1.用户累计充值达到<font>199</font>元后，在本活动页点击\n立即领取按钮进行领取;\n2.领取完30天奖励后，活动将重新开始;\n3.每日0点即可领取当日奖励;\n4.充值金额以活动开始后计算。", "28px 'PingFang SC'", "#FFFFFF");
 	this.rulestxt.name = "rulestxt";
 	this.rulestxt.lineHeight = 37;
 	this.rulestxt.lineWidth = 651;
