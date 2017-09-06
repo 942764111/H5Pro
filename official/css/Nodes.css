@@ -62,7 +62,7 @@ p {
 }
 
 #belowLayer{
-    border: 0px solid red;
+    border: 1px solid red;
     width: 100%;
     min-height: 110px;
     max-height: 110px;
@@ -75,7 +75,8 @@ p {
     background:url("../img/background.png");
     background-size: cover;
     width: 100%;
-    height: 728px;
+    height: 1000px;
+    max-height: 1000px;
 }
 
 #SLog{
