@@ -1,10 +1,18 @@
 /**
  * Created by jon on 2017/7/17.
  */
+
+
+
 var mainScene;
 (function(){
+    console.log(this);
     mainScene = function(){
         if (!(this instanceof mainScene)) {
+            Function.prototype.testname = 'fun';
+            Function.prototype.addMehod = function(name,fun){
+                this[name] =fun & fun();
+            }
             return new mainScene();
         }
         function init(){
@@ -35,6 +43,8 @@ var mainScene;
          * @param IntervalTime Interval时间 0.5|1|2....
          */
         function run(MaxcircleNum,IntervalTime){
+
+
             // init the visible false
             exportRoot.xuanzhong.visible = false;
             exportRoot.btn.addEventListener('click',function(evt){
@@ -87,6 +97,6 @@ var mainScene;
         };
 
         init();
-    }
 
+    }
 })();

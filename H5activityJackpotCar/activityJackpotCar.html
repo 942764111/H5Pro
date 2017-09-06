@@ -5,14 +5,18 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 <title>豪车美女等你抢</title>
 <link rel="stylesheet" type="text/css" href="css/activityJackpotCarCss.css">
-<script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
-<script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
-<script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
-<script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
-<script src="http://qlbuy-img.qlifeapp.com/static/js/jquery-2.2.1.min.js"></script>
-<script src="http://qlbuy-img.qlifeapp.com/static/js/rem_set_bjf.js"></script>
-<script src="js/activityJackpotCar.js"></script>
-<script src="js/activityJackpotCarScene.js"></script>
+<!--<script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>-->
+<!--<script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>-->
+<!--<script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>-->
+<!--<script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>-->
+	<!--<script src="js/test.js"></script>-->
+	<script src="js/封装/js权限属性方法.js"></script>
+<!--<script src="js/activityJackpotCar.js"></script>-->
+<!--<script src="js/activityJackpotCarScene.js"></script>-->
+
+
+	<script src="http://qlbuy-img.qlifeapp.com/static/js/jquery-2.2.1.min.js"></script>
+	<script src="http://qlbuy-img.qlifeapp.com/static/js/rem_set_bjf.js"></script>
 
 <script>
 var canvas, stage, exportRoot;
@@ -44,12 +48,13 @@ function handleComplete(evt) {
 
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
-	new mainScene();
+	mainScene();
 }
 </script>
 </head>
 
-<body onload="init();" style="background-color:black">
-	<canvas id="canvas" width="750" height="1334" style="background-color:#000000"></canvas>
-</body>
+<!--<body onload="init();" style="background-color:black">-->
+	<!--&lt;!&ndash;<canvas id="canvas" width="750" height="1334" style="background-color:#000000"></canvas>&ndash;&gt;-->
+
+<!--</body>-->
 </html>
